@@ -1,0 +1,37 @@
+{
+  "checked_on": "2026-10-24",
+  "status": "PASS",
+  "instance_files": 6600,
+  "unique_paths": 6600,
+  "unique_content_hashes": 6600,
+  "duplicate_content_groups": 0,
+  "duplicate_content_policy": "Preserve all manifest-listed files; no deduplication.",
+  "bytes": 49473957,
+  "source_public_byte_mismatches": 0,
+  "source_files_changed": 0,
+  "matches_formal_experiment_input_sets": true,
+  "configurations": 33,
+  "instances_per_configuration": 200,
+  "instances_per_configuration_per_generation_label": 100,
+  "labels": {
+    "Basic1_2": {
+      "Consistent": 500,
+      "Inconsistent": 500
+    },
+    "Basic1_3": {
+      "Consistent": 500,
+      "Inconsistent": 500
+    },
+    "Basic1_4": {
+      "Consistent": 500,
+      "Inconsistent": 500
+    },
+    "Disjunctive2_2": {
+      "Consistent": 1800,
+      "Inconsistent": 1800
+    }
+  },
+  "generation_executed": false,
+  "solver_executed": false,
+  "scope": "Byte integrity, counts, configuration facts and original experiment membership; not SAT/UNSAT certification."
+}

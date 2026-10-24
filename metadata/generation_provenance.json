@@ -1,0 +1,60 @@
+{
+  "upstream_repository": "https://github.com/yizmirlioglu/HOPA",
+  "upstream_generator_directory": "Scripts/Generate_Benchmark",
+  "generator_language": "MATLAB/Octave",
+  "generator_files": [
+    "generate_hopa_consist.m",
+    "generate_hopa_inconsist.m"
+  ],
+  "upstream_commit_observed_at_packaging": "a96f21132cab0b2d9d7c3240ffe3f1c8c2e7b78f",
+  "observed_commit_is_not_verified_generation_version": true,
+  "actual_generation_revision": "not recovered from available local records",
+  "actual_generation_environment": "not recovered from available local records",
+  "random_seeds": "not recovered; Sample1..Sample100 are sample identifiers, not verified RNG seeds",
+  "generation_origin": "Original HOPA generator family, as recorded for the SFG study; original file format preserved.",
+  "configuration_source": "Existing filenames, input facts, formal experiment manifests and domain files; no regeneration.",
+  "upstream_license_detected": null,
+  "generator_or_upstream_solver_code_redistributed": false,
+  "formal_experiment_input_checks": [
+    {
+      "dataset": "Basic1_2",
+      "official_manifest_sha256": "201aec7a371bcedce002d709c6b42cce0caa3f685eb31ebcd37234c73dbc1ed8",
+      "formal_result_csv_sha256": "cc008b5908ee0eac2aefd240caf22beec3638d79b85dc3f76b331517b4cc581e",
+      "manifest_count": 1000,
+      "formal_results_count": 1000,
+      "input_path_sets_equal": true,
+      "source_manifest": "experiment/formal_manifests/Basic1_2.txt",
+      "source_results": "results_formal/sfg_final_20261010_160734/Basic1_2.csv"
+    },
+    {
+      "dataset": "Basic1_3",
+      "official_manifest_sha256": "68027d431ae2f5cb31a24d9540ad7a510aefc4ed33899255edaeb22e6b55f3ac",
+      "formal_result_csv_sha256": "6f365f8f08b50295c8b11a3a131b85f42677a0f8f8027dbbc351dd4973e8afb1",
+      "manifest_count": 1000,
+      "formal_results_count": 1000,
+      "input_path_sets_equal": true,
+      "source_manifest": "experiment/formal_manifests/Basic1_3.txt",
+      "source_results": "results_formal/sfg_final_20261010_160734/Basic1_3.csv"
+    },
+    {
+      "dataset": "Basic1_4",
+      "official_manifest_sha256": "c918d367ec910d046b3a0f238a9f3f454e1c038726ee39db61be7f43d5525656",
+      "formal_result_csv_sha256": "999a23363fd02fca3e8e071fce572f9ca6b611bfa897b8492cee028ea33cf56a",
+      "manifest_count": 1000,
+      "formal_results_count": 1000,
+      "input_path_sets_equal": true,
+      "source_manifest": "experiment/formal_manifests/Basic1_4.txt",
+      "source_results": "results_formal/sfg_final_20261010_160734/Basic1_4.csv"
+    },
+    {
+      "dataset": "Disjunctive2_2",
+      "official_manifest_sha256": "cb7e235bddbfc3717bc31636bf1652547a1696379a5592c724e41007ba5eb5d9",
+      "formal_result_csv_sha256": "4645df85fd8e9d5fce416b82629ac0da96d9d502f54fb92acb77e5f532a47506",
+      "manifest_count": 3600,
+      "formal_results_count": 3600,
+      "input_path_sets_equal": true,
+      "source_manifest": "experiment/formal_manifests/Disjunctive2_2.txt",
+      "source_results": "results_formal/sfg_final_20261010_160734/Disjunctive2_2.csv"
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "angular_configuration": {
+    "angle_res": 3,
+    "angle_range": [
+      0,
+      119
+    ],
+    "configuration_sha256": "7c6074bb692b293aa4a7478148186b962dc86b0c91bb2c4e5c9235255eff6762",
+    "note": "3-degree enumeration for free headings; exact/derived headings follow the HOPA implementation rules."
+  },
+  "grids": [
+    {
+      "Grid": 100,
+      "x_min": 1,
+      "x_max": 100,
+      "y_min": 1,
+      "y_max": 100,
+      "qualitative_squared_distance_lower_bounds": {
+        "on": 0,
+        "verynear": 1,
+        "near": 197,
+        "medium": 785,
+        "far": 3250,
+        "veryfar": 9802
+      },
+      "qualitative_squared_distance_upper_bounds": {
+        "on": 0,
+        "verynear": 196,
+        "near": 784,
+        "medium": 3249,
+        "far": 9801
+      },
+      "local_configuration_sha256": "ad67af2467a5baceb26950066cd64f8fc278b8d14b385dd7c7d069f75bed8b92"
+    },
+    {
+      "Grid": 200,
+      "x_min": 1,
+      "x_max": 200,
+      "y_min": 1,
+      "y_max": 200,
+      "qualitative_squared_distance_lower_bounds": {
+        "on": 0,
+        "verynear": 1,
+        "near": 800,
+        "medium": 3200,
+        "far": 12800,
+        "veryfar": 39200
+      },
+      "qualitative_squared_distance_upper_bounds": {
+        "on": 0,
+        "verynear": 800,
+        "near": 3200,
+        "medium": 12800,
+        "far": 39200,
+        "veryfar": 80000
+      },
+      "local_configuration_sha256": "e842203aec0bc5ed702d92d694ba5549af5e5939afabb5d1d440e4fa473d182b"
+    },
+    {
+      "Grid": 300,
+      "x_min": 1,
+      "x_max": 300,
+      "y_min": 1,
+      "y_max": 300,
+      "qualitative_squared_distance_lower_bounds": {
+        "on": 0,
+        "verynear": 1,
+        "near": 1800,
+        "medium": 7200,
+        "far": 28800,
+        "veryfar": 88200
+      },
+      "qualitative_squared_distance_upper_bounds": {
+        "on": 0,
+        "verynear": 1800,
+        "near": 7200,
+        "medium": 28800,
+        "far": 88200,
+        "veryfar": 180000
+      },
+      "local_configuration_sha256": "d8f90d077f5f5dcda40c8623d5ad818ec05779e15475aee14981f4eef5c5a1cb"
+    },
+    {
+      "Grid": 400,
+      "x_min": 1,
+      "x_max": 400,
+      "y_min": 1,
+      "y_max": 400,
+      "qualitative_squared_distance_lower_bounds": {
+        "on": 0,
+        "verynear": 1,
+        "near": 3200,
+        "medium": 12800,
+        "far": 51200,
+        "veryfar": 156800
+      },
+      "qualitative_squared_distance_upper_bounds": {
+        "on": 0,
+        "verynear": 3200,
+        "near": 12800,
+        "medium": 51200,
+        "far": 156800,
+        "veryfar": 320000
+      },
+      "local_configuration_sha256": "7fc0b315504bce526c574313b234273e105dfdaf70b7daabea118ac13584eb29"
+    },
+    {
+      "Grid": 500,
+      "x_min": 1,
+      "x_max": 500,
+      "y_min": 1,
+      "y_max": 500,
+      "qualitative_squared_distance_lower_bounds": {
+        "on": 0,
+        "verynear": 1,
+        "near": 5000,
+        "medium": 20000,
+        "far": 80000,
+        "veryfar": 245000
+      },
+      "qualitative_squared_distance_upper_bounds": {
+        "on": 0,
+        "verynear": 5000,
+        "near": 20000,
+        "medium": 80000,
+        "far": 245000,
+        "veryfar": 500000
+      },
+      "local_configuration_sha256": "8bc1b351bb91fa0fa451a36934ba09f8be94fb547b2444d4bc4ed8cd5f2421fa"
+    },
+    {
+      "Grid": 800,
+      "x_min": 1,
+      "x_max": 800,
+      "y_min": 1,
+      "y_max": 800,
+      "qualitative_squared_distance_lower_bounds": {
+        "on": 0,
+        "verynear": 1,
+        "near": 12800,
+        "medium": 51200,
+        "far": 204800,
+        "veryfar": 627200
+      },
+      "qualitative_squared_distance_upper_bounds": {
+        "on": 0,
+        "verynear": 12800,
+        "near": 51200,
+        "medium": 204800,
+        "far": 627200,
+        "veryfar": 1280000
+      },
+      "local_configuration_sha256": "fa80fd7914fae5163334aa3f88d9fc150b6507855a8d2dc87ba2c488c4fbb446"
+    },
+    {
+      "Grid": 1200,
+      "x_min": 1,
+      "x_max": 1200,
+      "y_min": 1,
+      "y_max": 1200,
+      "qualitative_squared_distance_lower_bounds": {
+        "on": 0,
+        "verynear": 1,
+        "near": 28800,
+        "medium": 115200,
+        "far": 460800,
+        "veryfar": 1411200
+      },
+      "qualitative_squared_distance_upper_bounds": {
+        "on": 0,
+        "verynear": 28800,
+        "near": 115200,
+        "medium": 460800,
+        "far": 1411200,
+        "veryfar": 2880000
+      },
+      "local_configuration_sha256": "f23e988c5c894c88d5b51171235b2b154bf0f51c23a61810d34893dfb8d5e03e"
+    }
+  ]
+}
